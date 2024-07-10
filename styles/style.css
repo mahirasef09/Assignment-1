@@ -14,3 +14,26 @@ body {
 .banner-items{
     text-align: center;
 }
+
+/* web-development-section styles */
+.why-web-development{
+  width: 1140px;
+  margin: 70px auto;
+}
+.title, .description{
+  text-align: center;
+}
+
+.web-items-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.web-items-2{
+  display: flex;
+}
+
+.web-items-3{
+  display: flex;
+  justify-content: space-between;
+}
