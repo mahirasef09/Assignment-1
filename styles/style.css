@@ -6,6 +6,8 @@ body {
 
 /* banner styles */
 .banner-section {
+  max-width: 1440px;
+  max-height: 650px;
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -237,10 +239,12 @@ body {
 
 /* footer section styles */
 .footer-section {
+  width: 1140px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 60px;
+  /* padding: 30px 60px; */
 }
 
 .footer-description {
