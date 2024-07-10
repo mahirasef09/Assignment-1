@@ -6,8 +6,6 @@ body {
 
 /* banner styles */
 .banner-section {
-  max-width: 1440px;
-  max-height: 650px;
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -244,8 +242,6 @@ body {
 
 /* footer section styles */
 footer {
-  max-width: 1440px;
-  max-height: 100px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
 }
