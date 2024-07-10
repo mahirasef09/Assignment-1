@@ -9,19 +9,74 @@ body {
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  margin-bottom: 80px;
 }
 
 .banner-items {
   text-align: center;
 }
 
-/* why-web-development styles */
-.why-web-development {
-  margin: 70px auto;
+.banner-description {
+  color: rgb(13, 19, 33);
+  line-height: 26px;
+  opacity: 0.7;
 }
-.title,
-.description {
+
+.banner-btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 40px;
+}
+
+/* why-web-development styles */
+.main-section {
+  width: 1140px;
+  margin: 0 auto;
+}
+.why-web-development {
+  padding: 80px;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.02);
+  margin-bottom: 80px;
+}
+
+.web-items-1,
+.web-items-2,
+.web-items-3 {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.mr {
+  margin-right: 40px;
+}
+.web-title {
   text-align: center;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.web-description {
+  margin-bottom: 40px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+  line-height: 26px;
+  opacity: 0.7;
 }
 
 .web-items-1 {
@@ -38,47 +93,146 @@ body {
   justify-content: space-between;
 }
 
+.web-btn {
+  width: 150px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+
 /* my inspiration styles */
 .my-inspiration {
   text-align: center;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+
+.inspiration-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.inspiration-description {
+  margin-bottom: 80px;
+  color: rgb(13, 19, 33);
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.video-radius {
+  border-radius: 16px;
 }
 
 /* my current target styles */
+
+.my-current-target {
+  margin-bottom: 80px;
+}
+
+.target-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.target-description {
+  margin-bottom: 80px;
+  color: rgb(13, 19, 33);
+  line-height: 26px;
+  opacity: 0.7;
+  text-align: center;
+}
+
 .target-items {
   display: flex;
   gap: 25px;
 }
 
-.target-item-1 {
+.target-item-1,
+.target-item-2,
+.target-item-3 {
   width: 365px;
   height: 300px;
+  align-items: center;
   padding: 40px;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
 }
 
-.target-item-2 {
-  width: 365px;
-  height: 300px;
-  padding: 40px;
-  border-radius: 16px;
-  background: rgba(0, 76, 232, 0.05);
+.tools-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.tools-description {
+  margin-bottom: 40px;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
 }
 
-.target-item-3 {
-  width: 365px;
-  height: 300px;
-  padding: 40px;
-  border-radius: 16px;
-  background: rgba(255, 223, 0, 0.05);
+.target-btn{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 /* support styles */
-.support {
-  background-image: url(../assets/handshake.jpg);
+#support {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   text-align: center;
+  border-radius: 16px;
+  padding: 64px;
+  margin-bottom: 80px;
+}
+
+#support input[type="text"] {
+  font-family: "Azeret Mono", monospace;
+  width: 550px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+}
+
+#support input[type="submit"] {
+  font-family: "Azeret Mono", monospace;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  width: 120px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background-color: white;
+}
+
+.support-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.support-description {
+  color: rgb(255, 255, 255);
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 50px;
 }
 
 /* footer section styles */
@@ -86,13 +240,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 30px 60px;
 }
 
 .footer-description {
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
-  line-height: 23px;
 }
 
 footer ul {
