@@ -5,41 +5,72 @@ body {
 }
 
 /* banner styles */
-.banner-section{
-    background-image: url(../assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.banner-section {
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.banner-items{
-    text-align: center;
-}
-
-/* why-web-development styles */
-.why-web-development{
-  width: 1140px;
-  margin: 70px auto;
-}
-.title, .description{
+.banner-items {
   text-align: center;
 }
 
-.web-items-1{
+/* why-web-development styles */
+.why-web-development {
+  width: 1140px;
+  margin: 70px auto;
+}
+.title,
+.description {
+  text-align: center;
+}
+
+.web-items-1 {
   display: flex;
   justify-content: space-between;
 }
 
-.web-items-2{
+.web-items-2 {
   display: flex;
 }
 
-.web-items-3{
+.web-items-3 {
   display: flex;
   justify-content: space-between;
 }
 
 /* my inspiration styles */
-.my-inspiration{
+.my-inspiration {
   width: 1140px;
   text-align: center;
+}
+
+/* my current target styles */
+.target-items {
+  display: flex;
+  gap: 25px;
+}
+
+.target-item-1 {
+  width: 365px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.target-item-2 {
+  width: 365px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.target-item-3 {
+  width: 365px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }
