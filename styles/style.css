@@ -15,7 +15,7 @@ body {
     text-align: center;
 }
 
-/* web-development-section styles */
+/* why-web-development styles */
 .why-web-development{
   width: 1140px;
   margin: 70px auto;
@@ -36,4 +36,10 @@ body {
 .web-items-3{
   display: flex;
   justify-content: space-between;
+}
+
+/* my inspiration styles */
+.my-inspiration{
+  width: 1140px;
+  text-align: center;
 }
