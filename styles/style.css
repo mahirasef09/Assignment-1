@@ -17,7 +17,6 @@ body {
 
 /* why-web-development styles */
 .why-web-development {
-  width: 1140px;
   margin: 70px auto;
 }
 .title,
@@ -41,7 +40,6 @@ body {
 
 /* my inspiration styles */
 .my-inspiration {
-  width: 1140px;
   text-align: center;
 }
 
@@ -73,4 +71,12 @@ body {
   padding: 40px;
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
+}
+
+/* support styles */
+.support{
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
